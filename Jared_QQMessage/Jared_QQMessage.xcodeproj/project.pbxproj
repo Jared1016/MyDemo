@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F550E6D1CF2FB310022B3B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F550E6C1CF2FB310022B3B4 /* main.m */; };
+		7F550E701CF2FB310022B3B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F550E6F1CF2FB310022B3B4 /* AppDelegate.m */; };
+		7F550E761CF2FB310022B3B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F550E741CF2FB310022B3B4 /* Main.storyboard */; };
+		7F550E781CF2FB310022B3B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F550E771CF2FB310022B3B4 /* Assets.xcassets */; };
+		7F550E7B1CF2FB310022B3B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F550E791CF2FB310022B3B4 /* LaunchScreen.storyboard */; };
+		7F550E861CF2FB320022B3B4 /* Jared_QQMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F550E851CF2FB320022B3B4 /* Jared_QQMessageTests.m */; };
+		7F550E911CF2FB320022B3B4 /* Jared_QQMessageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F550E901CF2FB320022B3B4 /* Jared_QQMessageUITests.m */; };
+		7F550EA61CF2FBED0022B3B4 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F550EA41CF2FBED0022B3B4 /* MessageViewController.m */; };
+		7F550EA71CF2FBED0022B3B4 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F550EA51CF2FBED0022B3B4 /* MessageViewController.xib */; };
+		7F550EAA1CF3E71D0022B3B4 /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F550EA91CF3E71D0022B3B4 /* MessageModel.m */; };
+		7F550EAD1CF3E7320022B3B4 /* MessageFrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F550EAC1CF3E7320022B3B4 /* MessageFrameModel.m */; };
+		7F550EB11CF3E7A40022B3B4 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F550EAF1CF3E7A40022B3B4 /* MessageTableViewCell.m */; };
+		7F550EB21CF3E7A40022B3B4 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F550EB01CF3E7A40022B3B4 /* MessageTableViewCell.xib */; };
+		7F550EB41CF3EBAD0022B3B4 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F550EB31CF3EBAD0022B3B4 /* messages.plist */; };
+		7FEC24BC1CF6CC0200B831A0 /* UIImage+JCImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEC24BB1CF6CC0200B831A0 /* UIImage+JCImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F550E821CF2FB320022B3B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F550E601CF2FB310022B3B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F550E671CF2FB310022B3B4;
+			remoteInfo = Jared_QQMessage;
+		};
+		7F550E8D1CF2FB320022B3B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F550E601CF2FB310022B3B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F550E671CF2FB310022B3B4;
+			remoteInfo = Jared_QQMessage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F550E681CF2FB310022B3B4 /* Jared_QQMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jared_QQMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F550E6C1CF2FB310022B3B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F550E6E1CF2FB310022B3B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F550E6F1CF2FB310022B3B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F550E751CF2FB310022B3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F550E771CF2FB310022B3B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F550E7A1CF2FB310022B3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F550E7C1CF2FB310022B3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F550E811CF2FB320022B3B4 /* Jared_QQMessageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jared_QQMessageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F550E851CF2FB320022B3B4 /* Jared_QQMessageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jared_QQMessageTests.m; sourceTree = "<group>"; };
+		7F550E871CF2FB320022B3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F550E8C1CF2FB320022B3B4 /* Jared_QQMessageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jared_QQMessageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F550E901CF2FB320022B3B4 /* Jared_QQMessageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jared_QQMessageUITests.m; sourceTree = "<group>"; };
+		7F550E921CF2FB320022B3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F550EA31CF2FBED0022B3B4 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		7F550EA41CF2FBED0022B3B4 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		7F550EA51CF2FBED0022B3B4 /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
+		7F550EA81CF3E71D0022B3B4 /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
+		7F550EA91CF3E71D0022B3B4 /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
+		7F550EAB1CF3E7310022B3B4 /* MessageFrameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageFrameModel.h; sourceTree = "<group>"; };
+		7F550EAC1CF3E7320022B3B4 /* MessageFrameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageFrameModel.m; sourceTree = "<group>"; };
+		7F550EAE1CF3E7A40022B3B4 /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		7F550EAF1CF3E7A40022B3B4 /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		7F550EB01CF3E7A40022B3B4 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		7F550EB31CF3EBAD0022B3B4 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		7FEC24BA1CF6CC0200B831A0 /* UIImage+JCImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JCImage.h"; sourceTree = "<group>"; };
+		7FEC24BB1CF6CC0200B831A0 /* UIImage+JCImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JCImage.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F550E651CF2FB310022B3B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F550E7E1CF2FB320022B3B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F550E891CF2FB320022B3B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F550E5F1CF2FB310022B3B4 = {
+			isa = PBXGroup;
+			children = (
+				7F550E6A1CF2FB310022B3B4 /* Jared_QQMessage */,
+				7F550E841CF2FB320022B3B4 /* Jared_QQMessageTests */,
+				7F550E8F1CF2FB320022B3B4 /* Jared_QQMessageUITests */,
+				7F550E691CF2FB310022B3B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F550E691CF2FB310022B3B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F550E681CF2FB310022B3B4 /* Jared_QQMessage.app */,
+				7F550E811CF2FB320022B3B4 /* Jared_QQMessageTests.xctest */,
+				7F550E8C1CF2FB320022B3B4 /* Jared_QQMessageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F550E6A1CF2FB310022B3B4 /* Jared_QQMessage */ = {
+			isa = PBXGroup;
+			children = (
+				7F550EA21CF2FBB10022B3B4 /* Utility */,
+				7F550EA01CF2FB4E0022B3B4 /* Controllers */,
+				7F550E9F1CF2FB450022B3B4 /* Views */,
+				7F550E9E1CF2FB3D0022B3B4 /* Model */,
+				7F550E6E1CF2FB310022B3B4 /* AppDelegate.h */,
+				7F550E6F1CF2FB310022B3B4 /* AppDelegate.m */,
+				7F550E771CF2FB310022B3B4 /* Assets.xcassets */,
+				7F550E7C1CF2FB310022B3B4 /* Info.plist */,
+				7F550E6B1CF2FB310022B3B4 /* Supporting Files */,
+			);
+			path = Jared_QQMessage;
+			sourceTree = "<group>";
+		};
+		7F550E6B1CF2FB310022B3B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F550EB31CF3EBAD0022B3B4 /* messages.plist */,
+				7F550E741CF2FB310022B3B4 /* Main.storyboard */,
+				7F550E791CF2FB310022B3B4 /* LaunchScreen.storyboard */,
+				7F550E6C1CF2FB310022B3B4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F550E841CF2FB320022B3B4 /* Jared_QQMessageTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F550E851CF2FB320022B3B4 /* Jared_QQMessageTests.m */,
+				7F550E871CF2FB320022B3B4 /* Info.plist */,
+			);
+			path = Jared_QQMessageTests;
+			sourceTree = "<group>";
+		};
+		7F550E8F1CF2FB320022B3B4 /* Jared_QQMessageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F550E901CF2FB320022B3B4 /* Jared_QQMessageUITests.m */,
+				7F550E921CF2FB320022B3B4 /* Info.plist */,
+			);
+			path = Jared_QQMessageUITests;
+			sourceTree = "<group>";
+		};
+		7F550E9E1CF2FB3D0022B3B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F550EA81CF3E71D0022B3B4 /* MessageModel.h */,
+				7F550EA91CF3E71D0022B3B4 /* MessageModel.m */,
+				7F550EAB1CF3E7310022B3B4 /* MessageFrameModel.h */,
+				7F550EAC1CF3E7320022B3B4 /* MessageFrameModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7F550E9F1CF2FB450022B3B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F550EAE1CF3E7A40022B3B4 /* MessageTableViewCell.h */,
+				7F550EAF1CF3E7A40022B3B4 /* MessageTableViewCell.m */,
+				7F550EB01CF3E7A40022B3B4 /* MessageTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7F550EA01CF2FB4E0022B3B4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F550EA31CF2FBED0022B3B4 /* MessageViewController.h */,
+				7F550EA41CF2FBED0022B3B4 /* MessageViewController.m */,
+				7F550EA51CF2FBED0022B3B4 /* MessageViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7F550EA21CF2FBB10022B3B4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				7FEC24BA1CF6CC0200B831A0 /* UIImage+JCImage.h */,
+				7FEC24BB1CF6CC0200B831A0 /* UIImage+JCImage.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F550E671CF2FB310022B3B4 /* Jared_QQMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F550E951CF2FB320022B3B4 /* Build configuration list for PBXNativeTarget "Jared_QQMessage" */;
+			buildPhases = (
+				7F550E641CF2FB310022B3B4 /* Sources */,
+				7F550E651CF2FB310022B3B4 /* Frameworks */,
+				7F550E661CF2FB310022B3B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jared_QQMessage;
+			productName = Jared_QQMessage;
+			productReference = 7F550E681CF2FB310022B3B4 /* Jared_QQMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F550E801CF2FB320022B3B4 /* Jared_QQMessageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F550E981CF2FB320022B3B4 /* Build configuration list for PBXNativeTarget "Jared_QQMessageTests" */;
+			buildPhases = (
+				7F550E7D1CF2FB320022B3B4 /* Sources */,
+				7F550E7E1CF2FB320022B3B4 /* Frameworks */,
+				7F550E7F1CF2FB320022B3B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F550E831CF2FB320022B3B4 /* PBXTargetDependency */,
+			);
+			name = Jared_QQMessageTests;
+			productName = Jared_QQMessageTests;
+			productReference = 7F550E811CF2FB320022B3B4 /* Jared_QQMessageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F550E8B1CF2FB320022B3B4 /* Jared_QQMessageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F550E9B1CF2FB320022B3B4 /* Build configuration list for PBXNativeTarget "Jared_QQMessageUITests" */;
+			buildPhases = (
+				7F550E881CF2FB320022B3B4 /* Sources */,
+				7F550E891CF2FB320022B3B4 /* Frameworks */,
+				7F550E8A1CF2FB320022B3B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F550E8E1CF2FB320022B3B4 /* PBXTargetDependency */,
+			);
+			name = Jared_QQMessageUITests;
+			productName = Jared_QQMessageUITests;
+			productReference = 7F550E8C1CF2FB320022B3B4 /* Jared_QQMessageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F550E601CF2FB310022B3B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Jared;
+				TargetAttributes = {
+					7F550E671CF2FB310022B3B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7F550E801CF2FB320022B3B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7F550E671CF2FB310022B3B4;
+					};
+					7F550E8B1CF2FB320022B3B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7F550E671CF2FB310022B3B4;
+					};
+				};
+			};
+			buildConfigurationList = 7F550E631CF2FB310022B3B4 /* Build configuration list for PBXProject "Jared_QQMessage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F550E5F1CF2FB310022B3B4;
+			productRefGroup = 7F550E691CF2FB310022B3B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F550E671CF2FB310022B3B4 /* Jared_QQMessage */,
+				7F550E801CF2FB320022B3B4 /* Jared_QQMessageTests */,
+				7F550E8B1CF2FB320022B3B4 /* Jared_QQMessageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F550E661CF2FB310022B3B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F550E7B1CF2FB310022B3B4 /* LaunchScreen.storyboard in Resources */,
+				7F550E781CF2FB310022B3B4 /* Assets.xcassets in Resources */,
+				7F550EB41CF3EBAD0022B3B4 /* messages.plist in Resources */,
+				7F550EB21CF3E7A40022B3B4 /* MessageTableViewCell.xib in Resources */,
+				7F550EA71CF2FBED0022B3B4 /* MessageViewController.xib in Resources */,
+				7F550E761CF2FB310022B3B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F550E7F1CF2FB320022B3B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F550E8A1CF2FB320022B3B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F550E641CF2FB310022B3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F550EAD1CF3E7320022B3B4 /* MessageFrameModel.m in Sources */,
+				7F550EA61CF2FBED0022B3B4 /* MessageViewController.m in Sources */,
+				7F550E701CF2FB310022B3B4 /* AppDelegate.m in Sources */,
+				7F550E6D1CF2FB310022B3B4 /* main.m in Sources */,
+				7FEC24BC1CF6CC0200B831A0 /* UIImage+JCImage.m in Sources */,
+				7F550EAA1CF3E71D0022B3B4 /* MessageModel.m in Sources */,
+				7F550EB11CF3E7A40022B3B4 /* MessageTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F550E7D1CF2FB320022B3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F550E861CF2FB320022B3B4 /* Jared_QQMessageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F550E881CF2FB320022B3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F550E911CF2FB320022B3B4 /* Jared_QQMessageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F550E831CF2FB320022B3B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F550E671CF2FB310022B3B4 /* Jared_QQMessage */;
+			targetProxy = 7F550E821CF2FB320022B3B4 /* PBXContainerItemProxy */;
+		};
+		7F550E8E1CF2FB320022B3B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F550E671CF2FB310022B3B4 /* Jared_QQMessage */;
+			targetProxy = 7F550E8D1CF2FB320022B3B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F550E741CF2FB310022B3B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F550E751CF2FB310022B3B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F550E791CF2FB310022B3B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F550E7A1CF2FB310022B3B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F550E931CF2FB320022B3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F550E941CF2FB320022B3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F550E961CF2FB320022B3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jared_QQMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joysinfo.Jared-QQMessage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F550E971CF2FB320022B3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jared_QQMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joysinfo.Jared-QQMessage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F550E991CF2FB320022B3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Jared_QQMessageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joysinfo.Jared-QQMessageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jared_QQMessage.app/Jared_QQMessage";
+			};
+			name = Debug;
+		};
+		7F550E9A1CF2FB320022B3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Jared_QQMessageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joysinfo.Jared-QQMessageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jared_QQMessage.app/Jared_QQMessage";
+			};
+			name = Release;
+		};
+		7F550E9C1CF2FB320022B3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Jared_QQMessageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joysinfo.Jared-QQMessageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Jared_QQMessage;
+			};
+			name = Debug;
+		};
+		7F550E9D1CF2FB320022B3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Jared_QQMessageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joysinfo.Jared-QQMessageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Jared_QQMessage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F550E631CF2FB310022B3B4 /* Build configuration list for PBXProject "Jared_QQMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F550E931CF2FB320022B3B4 /* Debug */,
+				7F550E941CF2FB320022B3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F550E951CF2FB320022B3B4 /* Build configuration list for PBXNativeTarget "Jared_QQMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F550E961CF2FB320022B3B4 /* Debug */,
+				7F550E971CF2FB320022B3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F550E981CF2FB320022B3B4 /* Build configuration list for PBXNativeTarget "Jared_QQMessageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F550E991CF2FB320022B3B4 /* Debug */,
+				7F550E9A1CF2FB320022B3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F550E9B1CF2FB320022B3B4 /* Build configuration list for PBXNativeTarget "Jared_QQMessageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F550E9C1CF2FB320022B3B4 /* Debug */,
+				7F550E9D1CF2FB320022B3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F550E601CF2FB310022B3B4 /* Project object */;
+}

@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F550E211CF2E6800022B3B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F550E201CF2E6800022B3B4 /* main.m */; };
+		7F550E241CF2E6800022B3B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F550E231CF2E6800022B3B4 /* AppDelegate.m */; };
+		7F550E2A1CF2E6800022B3B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F550E281CF2E6800022B3B4 /* Main.storyboard */; };
+		7F550E2C1CF2E6800022B3B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F550E2B1CF2E6800022B3B4 /* Assets.xcassets */; };
+		7F550E2F1CF2E6800022B3B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F550E2D1CF2E6800022B3B4 /* LaunchScreen.storyboard */; };
+		7F550E3A1CF2E6800022B3B4 /* Jared_CellClickExpansionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F550E391CF2E6800022B3B4 /* Jared_CellClickExpansionTests.m */; };
+		7F550E451CF2E6800022B3B4 /* Jared_CellClickExpansionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F550E441CF2E6800022B3B4 /* Jared_CellClickExpansionUITests.m */; };
+		7F550E551CF2E6CB0022B3B4 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F550E531CF2E6CB0022B3B4 /* HomeViewController.m */; };
+		7F550E561CF2E6CB0022B3B4 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F550E541CF2E6CB0022B3B4 /* HomeViewController.xib */; };
+		7F550E5D1CF2E70B0022B3B4 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F550E5B1CF2E70B0022B3B4 /* HomeTableViewCell.m */; };
+		7F550E5E1CF2E70B0022B3B4 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F550E5C1CF2E70B0022B3B4 /* HomeTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F550E361CF2E6800022B3B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F550E141CF2E6800022B3B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F550E1B1CF2E6800022B3B4;
+			remoteInfo = Jared_CellClickExpansion;
+		};
+		7F550E411CF2E6800022B3B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F550E141CF2E6800022B3B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F550E1B1CF2E6800022B3B4;
+			remoteInfo = Jared_CellClickExpansion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F550E1C1CF2E6800022B3B4 /* Jared_CellClickExpansion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jared_CellClickExpansion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F550E201CF2E6800022B3B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F550E221CF2E6800022B3B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F550E231CF2E6800022B3B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F550E291CF2E6800022B3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F550E2B1CF2E6800022B3B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F550E2E1CF2E6800022B3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F550E301CF2E6800022B3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F550E351CF2E6800022B3B4 /* Jared_CellClickExpansionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jared_CellClickExpansionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F550E391CF2E6800022B3B4 /* Jared_CellClickExpansionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jared_CellClickExpansionTests.m; sourceTree = "<group>"; };
+		7F550E3B1CF2E6800022B3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F550E401CF2E6800022B3B4 /* Jared_CellClickExpansionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jared_CellClickExpansionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F550E441CF2E6800022B3B4 /* Jared_CellClickExpansionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jared_CellClickExpansionUITests.m; sourceTree = "<group>"; };
+		7F550E461CF2E6800022B3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F550E521CF2E6CB0022B3B4 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7F550E531CF2E6CB0022B3B4 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7F550E541CF2E6CB0022B3B4 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		7F550E5A1CF2E70B0022B3B4 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		7F550E5B1CF2E70B0022B3B4 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		7F550E5C1CF2E70B0022B3B4 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F550E191CF2E6800022B3B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F550E321CF2E6800022B3B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F550E3D1CF2E6800022B3B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F550E131CF2E6800022B3B4 = {
+			isa = PBXGroup;
+			children = (
+				7F550E1E1CF2E6800022B3B4 /* Jared_CellClickExpansion */,
+				7F550E381CF2E6800022B3B4 /* Jared_CellClickExpansionTests */,
+				7F550E431CF2E6800022B3B4 /* Jared_CellClickExpansionUITests */,
+				7F550E1D1CF2E6800022B3B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F550E1D1CF2E6800022B3B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F550E1C1CF2E6800022B3B4 /* Jared_CellClickExpansion.app */,
+				7F550E351CF2E6800022B3B4 /* Jared_CellClickExpansionTests.xctest */,
+				7F550E401CF2E6800022B3B4 /* Jared_CellClickExpansionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F550E1E1CF2E6800022B3B4 /* Jared_CellClickExpansion */ = {
+			isa = PBXGroup;
+			children = (
+				7F550E571CF2E6D00022B3B4 /* Controllers */,
+				7F550E581CF2E6DA0022B3B4 /* Views */,
+				7F550E591CF2E6E10022B3B4 /* Model */,
+				7F550E221CF2E6800022B3B4 /* AppDelegate.h */,
+				7F550E231CF2E6800022B3B4 /* AppDelegate.m */,
+				7F550E2B1CF2E6800022B3B4 /* Assets.xcassets */,
+				7F550E301CF2E6800022B3B4 /* Info.plist */,
+				7F550E1F1CF2E6800022B3B4 /* Supporting Files */,
+			);
+			path = Jared_CellClickExpansion;
+			sourceTree = "<group>";
+		};
+		7F550E1F1CF2E6800022B3B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F550E281CF2E6800022B3B4 /* Main.storyboard */,
+				7F550E2D1CF2E6800022B3B4 /* LaunchScreen.storyboard */,
+				7F550E201CF2E6800022B3B4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F550E381CF2E6800022B3B4 /* Jared_CellClickExpansionTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F550E391CF2E6800022B3B4 /* Jared_CellClickExpansionTests.m */,
+				7F550E3B1CF2E6800022B3B4 /* Info.plist */,
+			);
+			path = Jared_CellClickExpansionTests;
+			sourceTree = "<group>";
+		};
+		7F550E431CF2E6800022B3B4 /* Jared_CellClickExpansionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F550E441CF2E6800022B3B4 /* Jared_CellClickExpansionUITests.m */,
+				7F550E461CF2E6800022B3B4 /* Info.plist */,
+			);
+			path = Jared_CellClickExpansionUITests;
+			sourceTree = "<group>";
+		};
+		7F550E571CF2E6D00022B3B4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F550E521CF2E6CB0022B3B4 /* HomeViewController.h */,
+				7F550E531CF2E6CB0022B3B4 /* HomeViewController.m */,
+				7F550E541CF2E6CB0022B3B4 /* HomeViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7F550E581CF2E6DA0022B3B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F550E5A1CF2E70B0022B3B4 /* HomeTableViewCell.h */,
+				7F550E5B1CF2E70B0022B3B4 /* HomeTableViewCell.m */,
+				7F550E5C1CF2E70B0022B3B4 /* HomeTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7F550E591CF2E6E10022B3B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F550E1B1CF2E6800022B3B4 /* Jared_CellClickExpansion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F550E491CF2E6800022B3B4 /* Build configuration list for PBXNativeTarget "Jared_CellClickExpansion" */;
+			buildPhases = (
+				7F550E181CF2E6800022B3B4 /* Sources */,
+				7F550E191CF2E6800022B3B4 /* Frameworks */,
+				7F550E1A1CF2E6800022B3B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jared_CellClickExpansion;
+			productName = Jared_CellClickExpansion;
+			productReference = 7F550E1C1CF2E6800022B3B4 /* Jared_CellClickExpansion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F550E341CF2E6800022B3B4 /* Jared_CellClickExpansionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F550E4C1CF2E6800022B3B4 /* Build configuration list for PBXNativeTarget "Jared_CellClickExpansionTests" */;
+			buildPhases = (
+				7F550E311CF2E6800022B3B4 /* Sources */,
+				7F550E321CF2E6800022B3B4 /* Frameworks */,
+				7F550E331CF2E6800022B3B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F550E371CF2E6800022B3B4 /* PBXTargetDependency */,
+			);
+			name = Jared_CellClickExpansionTests;
+			productName = Jared_CellClickExpansionTests;
+			productReference = 7F550E351CF2E6800022B3B4 /* Jared_CellClickExpansionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F550E3F1CF2E6800022B3B4 /* Jared_CellClickExpansionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F550E4F1CF2E6800022B3B4 /* Build configuration list for PBXNativeTarget "Jared_CellClickExpansionUITests" */;
+			buildPhases = (
+				7F550E3C1CF2E6800022B3B4 /* Sources */,
+				7F550E3D1CF2E6800022B3B4 /* Frameworks */,
+				7F550E3E1CF2E6800022B3B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F550E421CF2E6800022B3B4 /* PBXTargetDependency */,
+			);
+			name = Jared_CellClickExpansionUITests;
+			productName = Jared_CellClickExpansionUITests;
+			productReference = 7F550E401CF2E6800022B3B4 /* Jared_CellClickExpansionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F550E141CF2E6800022B3B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Jared;
+				TargetAttributes = {
+					7F550E1B1CF2E6800022B3B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7F550E341CF2E6800022B3B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7F550E1B1CF2E6800022B3B4;
+					};
+					7F550E3F1CF2E6800022B3B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7F550E1B1CF2E6800022B3B4;
+					};
+				};
+			};
+			buildConfigurationList = 7F550E171CF2E6800022B3B4 /* Build configuration list for PBXProject "Jared_CellClickExpansion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F550E131CF2E6800022B3B4;
+			productRefGroup = 7F550E1D1CF2E6800022B3B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F550E1B1CF2E6800022B3B4 /* Jared_CellClickExpansion */,
+				7F550E341CF2E6800022B3B4 /* Jared_CellClickExpansionTests */,
+				7F550E3F1CF2E6800022B3B4 /* Jared_CellClickExpansionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F550E1A1CF2E6800022B3B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F550E2F1CF2E6800022B3B4 /* LaunchScreen.storyboard in Resources */,
+				7F550E2C1CF2E6800022B3B4 /* Assets.xcassets in Resources */,
+				7F550E2A1CF2E6800022B3B4 /* Main.storyboard in Resources */,
+				7F550E5E1CF2E70B0022B3B4 /* HomeTableViewCell.xib in Resources */,
+				7F550E561CF2E6CB0022B3B4 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F550E331CF2E6800022B3B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F550E3E1CF2E6800022B3B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F550E181CF2E6800022B3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F550E241CF2E6800022B3B4 /* AppDelegate.m in Sources */,
+				7F550E211CF2E6800022B3B4 /* main.m in Sources */,
+				7F550E5D1CF2E70B0022B3B4 /* HomeTableViewCell.m in Sources */,
+				7F550E551CF2E6CB0022B3B4 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F550E311CF2E6800022B3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F550E3A1CF2E6800022B3B4 /* Jared_CellClickExpansionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F550E3C1CF2E6800022B3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F550E451CF2E6800022B3B4 /* Jared_CellClickExpansionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F550E371CF2E6800022B3B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F550E1B1CF2E6800022B3B4 /* Jared_CellClickExpansion */;
+			targetProxy = 7F550E361CF2E6800022B3B4 /* PBXContainerItemProxy */;
+		};
+		7F550E421CF2E6800022B3B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F550E1B1CF2E6800022B3B4 /* Jared_CellClickExpansion */;
+			targetProxy = 7F550E411CF2E6800022B3B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F550E281CF2E6800022B3B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F550E291CF2E6800022B3B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F550E2D1CF2E6800022B3B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F550E2E1CF2E6800022B3B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F550E471CF2E6800022B3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F550E481CF2E6800022B3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F550E4A1CF2E6800022B3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jared_CellClickExpansion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joysinfo.Jared-CellClickExpansion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F550E4B1CF2E6800022B3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jared_CellClickExpansion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joysinfo.Jared-CellClickExpansion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F550E4D1CF2E6800022B3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Jared_CellClickExpansionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joysinfo.Jared-CellClickExpansionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jared_CellClickExpansion.app/Jared_CellClickExpansion";
+			};
+			name = Debug;
+		};
+		7F550E4E1CF2E6800022B3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Jared_CellClickExpansionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joysinfo.Jared-CellClickExpansionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jared_CellClickExpansion.app/Jared_CellClickExpansion";
+			};
+			name = Release;
+		};
+		7F550E501CF2E6800022B3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Jared_CellClickExpansionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joysinfo.Jared-CellClickExpansionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Jared_CellClickExpansion;
+			};
+			name = Debug;
+		};
+		7F550E511CF2E6800022B3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Jared_CellClickExpansionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joysinfo.Jared-CellClickExpansionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Jared_CellClickExpansion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F550E171CF2E6800022B3B4 /* Build configuration list for PBXProject "Jared_CellClickExpansion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F550E471CF2E6800022B3B4 /* Debug */,
+				7F550E481CF2E6800022B3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F550E491CF2E6800022B3B4 /* Build configuration list for PBXNativeTarget "Jared_CellClickExpansion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F550E4A1CF2E6800022B3B4 /* Debug */,
+				7F550E4B1CF2E6800022B3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F550E4C1CF2E6800022B3B4 /* Build configuration list for PBXNativeTarget "Jared_CellClickExpansionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F550E4D1CF2E6800022B3B4 /* Debug */,
+				7F550E4E1CF2E6800022B3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F550E4F1CF2E6800022B3B4 /* Build configuration list for PBXNativeTarget "Jared_CellClickExpansionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F550E501CF2E6800022B3B4 /* Debug */,
+				7F550E511CF2E6800022B3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F550E141CF2E6800022B3B4 /* Project object */;
+}
